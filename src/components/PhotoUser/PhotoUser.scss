@@ -1,0 +1,28 @@
+.PhotoUser {
+  display: flex;
+
+  &-Avatar {
+    margin-right: 8px;
+  }
+
+  &-User {
+    line-height: 30px;
+
+    &_tag {
+      line-height: 20px;
+      display: inline-block;
+    }
+  }
+
+  &-Info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-Tag {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #999;
+  }
+}

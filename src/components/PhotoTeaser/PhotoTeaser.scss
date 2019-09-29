@@ -1,0 +1,14 @@
+.PhotoTeaser {
+  & + & {
+    margin-top: 50px;
+  }
+
+  &-Owner {
+    padding: 0 12px 12px;
+  }
+
+  &-Description {
+    padding: 12px;
+    line-height: 20px;
+  }
+}

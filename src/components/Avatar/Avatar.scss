@@ -1,0 +1,14 @@
+.Avatar {
+  font-size: 0;
+  border-radius: 100%;
+  overflow: hidden;
+  display: inline-block;
+
+  width: var(--avatar-size, 32px);
+  height: var(--avatar-size, 32px);
+
+  &-Image {
+    width: 100%;
+    height: 100%;
+  }
+}
