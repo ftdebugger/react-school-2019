@@ -36,7 +36,7 @@ export const App: React.FC<AppProps> = function App({ url, state: { state, js, c
                             dangerouslySetInnerHTML={{
                                 __html: `window.__PRELOADED_STATE__=${JSON.stringify(store.getState()).replace(
                                     /</g,
-                                    '\\\u003c',
+                                    '\\u003c',
                                 )}`,
                             }}
                         />
